@@ -1,0 +1,1111 @@
+[
+  {
+    "trainNumber": "WR401",
+    "name": "Borivali Fast Local",
+    "type": "Fast",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "06:00",
+    "arrival": "06:32",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR501",
+    "name": "Virar Slow Passenger",
+    "type": "Slow",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "06:15",
+    "arrival": "07:05",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR402",
+    "name": "Borivali Fast Local",
+    "type": "Fast",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "07:00",
+    "arrival": "07:32",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR502",
+    "name": "Virar Slow Passenger",
+    "type": "Slow",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "07:15",
+    "arrival": "08:05",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR403",
+    "name": "Borivali Fast Local",
+    "type": "Fast",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "08:00",
+    "arrival": "08:32",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR503",
+    "name": "Virar Slow Passenger",
+    "type": "Slow",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "08:15",
+    "arrival": "09:05",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR404",
+    "name": "Borivali Fast Local",
+    "type": "Fast",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "09:00",
+    "arrival": "09:32",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR405",
+    "name": "Borivali Fast Local",
+    "type": "Fast",
+    "from": "Borivali",
+    "to": "Virar",
+    "departure": "18:00",
+    "arrival": "18:32",
+    "stops": [
+      "Dahisar",
+      "Mira Road",
+      "Bhayandar",
+      "Vasai Road",
+      "Naigaon",
+      "Nalasopara"
+    ]
+  },
+  {
+    "trainNumber": "WR301",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "05:05",
+    "arrival": "05:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR101",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "05:10",
+    "arrival": "05:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR201",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "05:22",
+    "arrival": "05:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR302",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "05:35",
+    "arrival": "06:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR102",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "05:40",
+    "arrival": "06:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR303",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "06:05",
+    "arrival": "06:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR103",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "06:10",
+    "arrival": "06:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR202",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "06:22",
+    "arrival": "06:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR304",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "06:35",
+    "arrival": "07:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR104",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "06:40",
+    "arrival": "07:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR305",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "07:05",
+    "arrival": "07:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR105",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "07:10",
+    "arrival": "07:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR203",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "07:22",
+    "arrival": "07:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR306",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "07:35",
+    "arrival": "08:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR106",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "07:40",
+    "arrival": "08:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR307",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "08:05",
+    "arrival": "08:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR107",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "08:10",
+    "arrival": "08:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR204",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "08:22",
+    "arrival": "08:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR308",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "08:35",
+    "arrival": "09:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR108",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "08:40",
+    "arrival": "09:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR109",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "09:10",
+    "arrival": "09:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR205",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "09:22",
+    "arrival": "09:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR110",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "09:40",
+    "arrival": "10:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR111",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "10:10",
+    "arrival": "10:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR112",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "10:40",
+    "arrival": "11:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR113",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "11:10",
+    "arrival": "11:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR114",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "11:40",
+    "arrival": "12:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR115",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "12:10",
+    "arrival": "12:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR116",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "12:40",
+    "arrival": "13:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR117",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "13:10",
+    "arrival": "13:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR118",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "13:40",
+    "arrival": "14:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR3312",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "14:05",
+    "arrival": "14:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR1126",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "14:10",
+    "arrival": "14:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR2208",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "14:22",
+    "arrival": "14:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR3313",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "14:35",
+    "arrival": "15:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR1127",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "14:40",
+    "arrival": "15:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR3314",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "15:05",
+    "arrival": "15:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR1128",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "15:10",
+    "arrival": "15:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR2209",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "15:22",
+    "arrival": "15:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR3315",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "15:35",
+    "arrival": "16:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR1129",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "15:40",
+    "arrival": "16:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR3316",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "16:05",
+    "arrival": "16:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR1130",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "16:10",
+    "arrival": "16:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR2210",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "16:22",
+    "arrival": "16:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR3317",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "16:35",
+    "arrival": "17:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR1131",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "16:40",
+    "arrival": "17:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR309",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "17:05",
+    "arrival": "17:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR119",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "17:10",
+    "arrival": "17:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR310",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "17:35",
+    "arrival": "18:25",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR120",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "17:40",
+    "arrival": "18:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR311",
+    "name": "Slow Passenger Local",
+    "type": "Slow",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "18:05",
+    "arrival": "18:55",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR121",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "18:10",
+    "arrival": "18:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR206",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "18:22",
+    "arrival": "18:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR122",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "18:40",
+    "arrival": "19:12",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR123",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "19:10",
+    "arrival": "19:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR207",
+    "name": "Borivali Shuttle",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "19:22",
+    "arrival": "19:50",
+    "stops": [
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR124",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "20:10",
+    "arrival": "20:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR125",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "21:10",
+    "arrival": "21:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  },
+  {
+    "trainNumber": "WR125",
+    "name": "Virar Fast Express",
+    "type": "Fast",
+    "from": "Virar",
+    "to": "Borivali",
+    "departure": "1.00",
+    "arrival": "1:42",
+    "stops": [
+      "Nalasopara",
+      "Vasai Road",
+      "Naigaon",
+      "Bhayandar",
+      "Mira Road",
+      "Dahisar"
+    ]
+  }
+]

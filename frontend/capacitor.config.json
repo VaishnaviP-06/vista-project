@@ -1,0 +1,17 @@
+{
+  "appId": "com.vista.transit",
+  "appName": "VISTA",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "Geolocation": {
+      "permissions": ["location"]
+    },
+    "SpeechRecognition": {
+      "permissions": ["microphone"]
+    }
+  }
+}

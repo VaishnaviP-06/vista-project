@@ -1,0 +1,134 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --lime:        #c3f832;
+  --lime-dark:   #aad929;
+  --lime-deep:   #7aaa00;
+  --text:        #1e1e1c;
+  --text-mid:    #3a3a38;
+  --text-muted:  #7a7a74;
+  --white:       #ffffff;
+  --card-bg:     rgba(255,255,255,0.90);
+  --card-border: rgba(0,0,0,0.07);
+  --shadow:      0 4px 28px rgba(0,0,0,.10);
+  --shadow-lg:   0 8px 48px rgba(0,0,0,.14);
+
+  /* legacy aliases kept so existing components compile */
+  --cyan:       #c3f832;
+  --violet:     #c3f832;
+  --blue:       #aad929;
+  --green:      #c3f832;
+  --orange:     #3a3a38;
+  --purple:     #c3f832;
+  --red:        #e05252;
+  --text-white: #1e1e1c;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #e8e8e6; }
+::-webkit-scrollbar-thumb { background: var(--lime-dark); border-radius: 3px; }
+
+/* ─── MAP-STYLE BACKGROUND ─────────────────────────────── */
+.stars-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  /* Warm paper-map base */
+  background-color: #f0ede6;
+
+  /* Layered road-map grid */
+  background-image:
+    linear-gradient(rgba(255,255,255,.92) 2px,  transparent 2px),
+    linear-gradient(90deg, rgba(255,255,255,.92) 2px, transparent 2px),
+    linear-gradient(rgba(215,210,200,.65) 1px,  transparent 1px),
+    linear-gradient(90deg, rgba(215,210,200,.65) 1px, transparent 1px),
+    linear-gradient(rgba(200,195,185,.30) 1px,  transparent 1px),
+    linear-gradient(90deg, rgba(200,195,185,.30) 1px, transparent 1px);
+
+  background-size:
+    200px 200px,
+    200px 200px,
+    66px  66px,
+    66px  66px,
+    22px  22px,
+    22px  22px;
+}
+
+/* Lime washes + warm center bloom */
+.stars-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 12%  8%,  rgba(195,248,50,.20) 0%, transparent 52%),
+    radial-gradient(ellipse 70% 55% at 90% 92%,  rgba(195,248,50,.15) 0%, transparent 52%),
+    radial-gradient(ellipse 60% 50% at 50% 50%,  rgba(255,255,255,.60) 0%, transparent 58%),
+    radial-gradient(ellipse 45% 38% at 70% 18%,  rgba(255,244,180,.28) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 32% at 22% 82%,  rgba(195,248,50,.12) 0%, transparent 52%);
+}
+
+/* Soft district "zone" blobs on the map */
+.stars-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle 260px at  8% 28%,  rgba(195,248,50,.07) 0%, transparent 100%),
+    radial-gradient(circle 200px at 90% 18%,  rgba(170,217,41,.08) 0%, transparent 100%),
+    radial-gradient(circle 240px at 78% 78%,  rgba(195,248,50,.06) 0%, transparent 100%),
+    radial-gradient(circle 220px at 28% 72%,  rgba(255,248,200,.12) 0%, transparent 100%),
+    radial-gradient(circle 180px at 55% 12%,  rgba(200,248,180,.09) 0%, transparent 100%);
+}
+
+/* ─── SOFT AMBIENT BLOBS ───────────────────────────────── */
+.ambient { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(130px);
+  animation: drift 13s ease-in-out infinite alternate;
+}
+.blob1 { width:750px; height:750px; background:rgba(195,248,50,.09); top:-300px; left:-300px; }
+.blob2 { width:620px; height:620px; background:rgba(195,248,50,.06); bottom:-240px; right:-240px; animation-delay:5s; }
+.blob3 { width:500px; height:500px; background:rgba(255,252,215,.65); top:22%; left:22%; animation-delay:9s; }
+@keyframes drift { 0%{transform:translate(0,0) scale(1)} 100%{transform:translate(28px,18px) scale(1.07)} }
+
+/* ─── PAGE WRAPPER ─────────────────────────────────────── */
+.page-wrapper { position: relative; z-index: 1; min-height: 100vh; padding-top: 70px; }
+
+/* ─── ANIMATIONS ───────────────────────────────────────── */
+@keyframes fadeUp    { from{transform:translateY(20px);opacity:0}         to{transform:translateY(0);opacity:1} }
+@keyframes spin      { to{ transform: rotate(360deg); } }
+@keyframes popIn     { from{transform:scale(.5) rotate(-10deg);opacity:0} to{transform:scale(1);opacity:1} }
+@keyframes pulse     { 0%,100%{transform:scale(1);opacity:1}              50%{transform:scale(1.5);opacity:.7} }
+@keyframes wave      { 0%,100%{transform:scaleY(.25);opacity:.5}          50%{transform:scaleY(1);opacity:1} }
+@keyframes ripple    { 0%{transform:translate(-50%,-50%) scale(.8);opacity:.8} 100%{transform:translate(-50%,-50%) scale(1.4);opacity:0} }
+@keyframes bounce    { 0%,100%{transform:translateY(0)}                   50%{transform:translateY(-8px)} }
+@keyframes logoFadeIn  { from{opacity:0;transform:scale(0.95)} to{opacity:1;transform:scale(1)} }
+@keyframes slideDown { from{transform:translateY(-100%);opacity:0}        to{transform:translateY(0);opacity:1} }
+@keyframes micPulse  { 0%,100%{transform:scale(1)} 50%{transform:scale(1.08)} }
+@keyframes floatPin  { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+
+
+/* ─── RESPONSIVE OVERRIDES ─────────────────────────────── */
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding-top: 56px !important;
+  }
+  .blob1, .blob2, .blob3 {
+    display: none !important;
+  }
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "churchgate",
+    "name": "Churchgate",
+    "platforms": {
+      "towards_virar": [1, 2, 3, 4],
+      "towards_churchgate": [],
+      "notes": "Southern terminus."
+    }
+  },
+  {
+    "id": "marine-lines",
+    "name": "Marine Lines",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "charni-road",
+    "name": "Charni Road",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "grant-road",
+    "name": "Grant Road",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "mumbai-central",
+    "name": "Mumbai Central",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": "Major station; suburban + long-distance."
+    }
+  },
+  {
+    "id": "mahalaxmi",
+    "name": "Mahalaxmi",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "lower-parel",
+    "name": "Lower Parel",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "elphinstone-road",
+    "name": "Elphinstone Road",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": "Also known as Prabhadevi."
+    }
+  },
+  {
+    "id": "dadar",
+    "name": "Dadar",
+    "platforms": {
+      "towards_virar": [1, 2, 3],
+      "towards_churchgate": [4, 5, 6],
+      "notes": "Major interchange station."
+    }
+  },
+  {
+    "id": "matunga-road",
+    "name": "Matunga Road",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "mahim",
+    "name": "Mahim",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "bandra",
+    "name": "Bandra",
+    "platforms": {
+      "towards_virar": [1, 2, 3],
+      "towards_churchgate": [4, 5, 6],
+      "notes": "Major station; harbour line interchange."
+    }
+  },
+  {
+    "id": "khar-road",
+    "name": "Khar Road",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "santacruz",
+    "name": "Santacruz",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "vile-parle",
+    "name": "Vile Parle",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "andheri",
+    "name": "Andheri",
+    "platforms": {
+      "towards_virar": [1, 2, 3],
+      "towards_churchgate": [4, 5, 6],
+      "notes": "Major station; metro interchange."
+    }
+  },
+  {
+    "id": "jogeshwari",
+    "name": "Jogeshwari",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "ram-mandir",
+    "name": "Ram Mandir",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "goregaon",
+    "name": "Goregaon",
+    "platforms": {
+      "towards_virar": [1, 2, 3],
+      "towards_churchgate": [4, 5, 6],
+      "notes": ""
+    }
+  },
+  {
+    "id": "malad",
+    "name": "Malad",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "kandivali",
+    "name": "Kandivali",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [3, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "borivali",
+    "name": "Borivali",
+    "platforms": {
+      "towards_virar": [5, 6, 7],
+      "towards_churchgate": [1, 2, 3, 4],
+      "notes": "Major junction."
+    }
+  },
+  {
+    "id": "dahisar",
+    "name": "Dahisar",
+    "platforms": {
+      "towards_virar": [1, 3],
+      "towards_churchgate": [2, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "mira-road",
+    "name": "Mira Road",
+    "platforms": {
+      "towards_virar": [1, 3],
+      "towards_churchgate": [2, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "bhayandar",
+    "name": "Bhayandar",
+    "platforms": {
+      "towards_virar": [1, 2],
+      "towards_churchgate": [4, 6],
+      "notes": ""
+    }
+  },
+  {
+    "id": "naigaon",
+    "name": "Naigaon",
+    "platforms": {
+      "towards_virar": [1, 3],
+      "towards_churchgate": [2, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "vasai-road",
+    "name": "Vasai Road",
+    "platforms": {
+      "towards_virar": [2, 3],
+      "towards_churchgate": [1, 4],
+      "notes": "PF 1 for originating locals."
+    }
+  },
+  {
+    "id": "nalla-sopara",
+    "name": "Nalla Sopara",
+    "platforms": {
+      "towards_virar": [1, 3],
+      "towards_churchgate": [2, 4],
+      "notes": ""
+    }
+  },
+  {
+    "id": "virar",
+    "name": "Virar",
+    "platforms": {
+      "towards_virar": [],
+      "towards_churchgate": [1, 2, 3, 4, 5, 6],
+      "notes": "Northern terminus."
+    }
+  }
+]

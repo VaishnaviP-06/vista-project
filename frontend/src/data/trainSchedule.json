@@ -1,0 +1,5358 @@
+[
+  {
+    "trainNumber": "BF001",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "04:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "04:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "04:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "04:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "04:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "04:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "04:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS001",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "04:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "04:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "04:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "04:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "04:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "04:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "04:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "04:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF002",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "04:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "04:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "04:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "05:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "05:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "05:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "05:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS002",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "05:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "05:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "05:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "05:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "05:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "05:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "05:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "05:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF003",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "05:20"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "05:28"
+      },
+      {
+        "station": "Naigaon",
+        "time": "05:34"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "05:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "05:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "05:50"
+      },
+      {
+        "station": "Borivali",
+        "time": "05:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS003",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "05:40"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "05:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "05:51"
+      },
+      {
+        "station": "Naigaon",
+        "time": "05:56"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "06:01"
+      },
+      {
+        "station": "Mira Road",
+        "time": "06:06"
+      },
+      {
+        "station": "Dahisar",
+        "time": "06:11"
+      },
+      {
+        "station": "Borivali",
+        "time": "06:16"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF004",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "06:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "06:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "06:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "06:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "06:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "06:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "06:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS004",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "06:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "06:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "06:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "06:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "06:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "06:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "06:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "06:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF005",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "06:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "06:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "06:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "07:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS005",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "07:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "07:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "07:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF006",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "07:15"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:23"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:29"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:35"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:40"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:45"
+      },
+      {
+        "station": "Borivali",
+        "time": "07:50"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS006",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "07:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "07:36"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:41"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:46"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:51"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:56"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:01"
+      },
+      {
+        "station": "Borivali",
+        "time": "08:06"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF007",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "07:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:53"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:59"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:05"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:10"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:15"
+      },
+      {
+        "station": "Borivali",
+        "time": "08:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS007",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "08:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "08:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "08:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF008",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "08:15"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:23"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:29"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:35"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:40"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:45"
+      },
+      {
+        "station": "Borivali",
+        "time": "08:50"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS008",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "08:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "08:36"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:41"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:46"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:51"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:56"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:01"
+      },
+      {
+        "station": "Borivali",
+        "time": "09:06"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF009",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "08:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:53"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:59"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:05"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:10"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:15"
+      },
+      {
+        "station": "Borivali",
+        "time": "09:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS009",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "09:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "09:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "09:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF010",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "09:15"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:23"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:29"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:35"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:40"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:45"
+      },
+      {
+        "station": "Borivali",
+        "time": "09:50"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS010",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "09:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "09:36"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:41"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:46"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:51"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:56"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:01"
+      },
+      {
+        "station": "Borivali",
+        "time": "10:06"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF011",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "09:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:53"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:59"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "10:05"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:10"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:15"
+      },
+      {
+        "station": "Borivali",
+        "time": "10:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS011",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "10:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "10:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "10:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "10:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "10:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF012",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "10:20"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:28"
+      },
+      {
+        "station": "Naigaon",
+        "time": "10:34"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "10:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:50"
+      },
+      {
+        "station": "Borivali",
+        "time": "10:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS012",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "10:40"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "10:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:51"
+      },
+      {
+        "station": "Naigaon",
+        "time": "10:56"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "11:01"
+      },
+      {
+        "station": "Mira Road",
+        "time": "11:06"
+      },
+      {
+        "station": "Dahisar",
+        "time": "11:11"
+      },
+      {
+        "station": "Borivali",
+        "time": "11:16"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF013",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "11:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "11:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "11:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "11:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "11:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "11:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "11:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS013",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "11:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "11:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "11:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "11:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "11:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "11:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "11:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "11:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF014",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "11:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "11:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "11:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "12:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "12:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "12:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "12:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS014",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "12:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "12:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "12:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "12:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "12:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "12:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "12:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "12:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF015",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "12:20"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "12:28"
+      },
+      {
+        "station": "Naigaon",
+        "time": "12:34"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "12:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "12:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "12:50"
+      },
+      {
+        "station": "Borivali",
+        "time": "12:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS015",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "12:40"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "12:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "12:51"
+      },
+      {
+        "station": "Naigaon",
+        "time": "12:56"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "13:01"
+      },
+      {
+        "station": "Mira Road",
+        "time": "13:06"
+      },
+      {
+        "station": "Dahisar",
+        "time": "13:11"
+      },
+      {
+        "station": "Borivali",
+        "time": "13:16"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF016",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "13:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "13:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "13:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "13:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "13:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "13:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "13:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS016",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "13:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "13:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "13:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "13:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "13:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "13:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "13:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "13:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF017",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "13:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "13:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "13:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "14:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "14:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "14:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "14:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS017",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "14:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "14:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "14:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "14:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "14:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "14:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "14:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "14:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF018",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "14:20"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "14:28"
+      },
+      {
+        "station": "Naigaon",
+        "time": "14:34"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "14:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "14:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "14:50"
+      },
+      {
+        "station": "Borivali",
+        "time": "14:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS018",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "14:40"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "14:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "14:51"
+      },
+      {
+        "station": "Naigaon",
+        "time": "14:56"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "15:01"
+      },
+      {
+        "station": "Mira Road",
+        "time": "15:06"
+      },
+      {
+        "station": "Dahisar",
+        "time": "15:11"
+      },
+      {
+        "station": "Borivali",
+        "time": "15:16"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF019",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "15:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "15:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "15:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "15:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "15:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "15:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "15:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS019",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "15:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "15:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "15:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "15:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "15:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "15:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "15:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "15:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF020",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "15:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "15:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "15:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "16:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "16:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "16:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "16:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS020",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "16:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "16:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "16:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "16:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "16:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "16:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "16:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "16:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF021",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "16:20"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "16:28"
+      },
+      {
+        "station": "Naigaon",
+        "time": "16:34"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "16:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "16:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "16:50"
+      },
+      {
+        "station": "Borivali",
+        "time": "16:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS021",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "16:40"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "16:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "16:51"
+      },
+      {
+        "station": "Naigaon",
+        "time": "16:56"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:01"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:06"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:11"
+      },
+      {
+        "station": "Borivali",
+        "time": "17:16"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF022",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "17:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "17:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS022",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "17:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "17:21"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:26"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:31"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:36"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:41"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:46"
+      },
+      {
+        "station": "Borivali",
+        "time": "17:51"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF023",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "17:30"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:38"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:44"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:55"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:00"
+      },
+      {
+        "station": "Borivali",
+        "time": "18:05"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS023",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "17:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "17:51"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:56"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:01"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:06"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:11"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:16"
+      },
+      {
+        "station": "Borivali",
+        "time": "18:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF024",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "18:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "18:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS024",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "18:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "18:21"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:26"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:31"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:36"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:41"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:46"
+      },
+      {
+        "station": "Borivali",
+        "time": "18:51"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF025",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "18:30"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:38"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:44"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:55"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:00"
+      },
+      {
+        "station": "Borivali",
+        "time": "19:05"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS025",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "18:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "18:51"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:56"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:01"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:06"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:11"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:16"
+      },
+      {
+        "station": "Borivali",
+        "time": "19:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF026",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "19:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "19:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS026",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "19:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "19:21"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:26"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:31"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:36"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:41"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:46"
+      },
+      {
+        "station": "Borivali",
+        "time": "19:51"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF027",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "19:30"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:38"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:44"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:55"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:00"
+      },
+      {
+        "station": "Borivali",
+        "time": "20:05"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS027",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "19:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "19:51"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:56"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:01"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:06"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:11"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:16"
+      },
+      {
+        "station": "Borivali",
+        "time": "20:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF028",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "20:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "20:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS028",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "20:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "20:21"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:26"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:31"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:36"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:41"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:46"
+      },
+      {
+        "station": "Borivali",
+        "time": "20:51"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF029",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "20:30"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:38"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:44"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:55"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:00"
+      },
+      {
+        "station": "Borivali",
+        "time": "21:05"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS029",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "20:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "20:51"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:56"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:01"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "21:06"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:11"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:16"
+      },
+      {
+        "station": "Borivali",
+        "time": "21:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF030",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "21:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "21:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "21:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS030",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "21:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "21:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "21:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "21:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF031",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "21:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "22:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "22:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "22:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "22:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS031",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "22:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "22:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "22:11"
+      },
+      {
+        "station": "Naigaon",
+        "time": "22:16"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "22:21"
+      },
+      {
+        "station": "Mira Road",
+        "time": "22:26"
+      },
+      {
+        "station": "Dahisar",
+        "time": "22:31"
+      },
+      {
+        "station": "Borivali",
+        "time": "22:36"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF032",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "22:20"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "22:28"
+      },
+      {
+        "station": "Naigaon",
+        "time": "22:34"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "22:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "22:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "22:50"
+      },
+      {
+        "station": "Borivali",
+        "time": "22:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS032",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "22:40"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "22:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "22:51"
+      },
+      {
+        "station": "Naigaon",
+        "time": "22:56"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "23:01"
+      },
+      {
+        "station": "Mira Road",
+        "time": "23:06"
+      },
+      {
+        "station": "Dahisar",
+        "time": "23:11"
+      },
+      {
+        "station": "Borivali",
+        "time": "23:16"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF033",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "23:00"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "23:08"
+      },
+      {
+        "station": "Naigaon",
+        "time": "23:14"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "23:20"
+      },
+      {
+        "station": "Mira Road",
+        "time": "23:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "23:30"
+      },
+      {
+        "station": "Borivali",
+        "time": "23:35"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BS033",
+    "name": "Borivali Slow",
+    "type": "Slow",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "23:20"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "23:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "23:31"
+      },
+      {
+        "station": "Naigaon",
+        "time": "23:36"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "23:41"
+      },
+      {
+        "station": "Mira Road",
+        "time": "23:46"
+      },
+      {
+        "station": "Dahisar",
+        "time": "23:51"
+      },
+      {
+        "station": "Borivali",
+        "time": "23:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "BF034",
+    "name": "Borivali Fast",
+    "type": "Fast",
+    "direction": "southbound",
+    "from": "Virar",
+    "to": "Borivali",
+    "stops": [
+      {
+        "station": "Virar",
+        "time": "23:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "23:48"
+      },
+      {
+        "station": "Naigaon",
+        "time": "23:54"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "00:00"
+      },
+      {
+        "station": "Mira Road",
+        "time": "00:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "00:10"
+      },
+      {
+        "station": "Borivali",
+        "time": "00:15"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF001",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "04:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "04:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "04:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "04:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "04:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "04:32"
+      },
+      {
+        "station": "Virar",
+        "time": "04:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS001",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "04:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "04:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "04:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "04:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "04:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "04:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "04:55"
+      },
+      {
+        "station": "Virar",
+        "time": "05:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF002",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "04:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "04:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "04:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "05:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "05:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "05:12"
+      },
+      {
+        "station": "Virar",
+        "time": "05:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS002",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "05:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "05:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "05:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "05:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "05:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "05:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "05:35"
+      },
+      {
+        "station": "Virar",
+        "time": "05:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF003",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "05:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "05:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "05:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "05:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "05:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "05:52"
+      },
+      {
+        "station": "Virar",
+        "time": "06:00"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS003",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "05:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "05:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "05:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "06:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "06:05"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "06:10"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "06:15"
+      },
+      {
+        "station": "Virar",
+        "time": "06:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF004",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "06:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "06:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "06:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "06:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "06:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "06:32"
+      },
+      {
+        "station": "Virar",
+        "time": "06:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS004",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "06:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "06:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "06:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "06:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "06:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "06:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "06:55"
+      },
+      {
+        "station": "Virar",
+        "time": "07:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF005",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "06:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "06:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "06:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:12"
+      },
+      {
+        "station": "Virar",
+        "time": "07:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS005",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "07:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "07:35"
+      },
+      {
+        "station": "Virar",
+        "time": "07:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF006",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "07:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:41"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "07:47"
+      },
+      {
+        "station": "Virar",
+        "time": "07:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS006",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "07:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "07:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "07:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "07:55"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "08:05"
+      },
+      {
+        "station": "Virar",
+        "time": "08:11"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF007",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "07:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "07:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:11"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:17"
+      },
+      {
+        "station": "Virar",
+        "time": "08:25"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS007",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "08:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "08:35"
+      },
+      {
+        "station": "Virar",
+        "time": "08:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF008",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "08:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:41"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "08:47"
+      },
+      {
+        "station": "Virar",
+        "time": "08:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS008",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "08:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "08:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "08:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "08:55"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "09:05"
+      },
+      {
+        "station": "Virar",
+        "time": "09:11"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF009",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "08:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "08:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:11"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:17"
+      },
+      {
+        "station": "Virar",
+        "time": "09:25"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS009",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "09:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "09:35"
+      },
+      {
+        "station": "Virar",
+        "time": "09:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF010",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "09:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:41"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "09:47"
+      },
+      {
+        "station": "Virar",
+        "time": "09:55"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS010",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "09:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "09:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "09:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "09:55"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:00"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "10:05"
+      },
+      {
+        "station": "Virar",
+        "time": "10:11"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF011",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "09:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "09:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "10:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "10:11"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:17"
+      },
+      {
+        "station": "Virar",
+        "time": "10:25"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS011",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "10:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "10:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "10:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "10:35"
+      },
+      {
+        "station": "Virar",
+        "time": "10:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF012",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "10:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "10:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "10:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "10:52"
+      },
+      {
+        "station": "Virar",
+        "time": "11:00"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS012",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "10:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "10:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "10:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "11:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "11:05"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "11:10"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "11:15"
+      },
+      {
+        "station": "Virar",
+        "time": "11:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF013",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "11:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "11:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "11:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "11:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "11:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "11:32"
+      },
+      {
+        "station": "Virar",
+        "time": "11:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS013",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "11:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "11:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "11:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "11:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "11:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "11:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "11:55"
+      },
+      {
+        "station": "Virar",
+        "time": "12:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF014",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "11:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "11:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "11:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "12:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "12:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "12:12"
+      },
+      {
+        "station": "Virar",
+        "time": "12:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS014",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "12:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "12:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "12:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "12:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "12:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "12:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "12:35"
+      },
+      {
+        "station": "Virar",
+        "time": "12:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF015",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "12:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "12:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "12:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "12:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "12:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "12:52"
+      },
+      {
+        "station": "Virar",
+        "time": "13:00"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS015",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "12:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "12:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "12:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "13:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "13:05"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "13:10"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "13:15"
+      },
+      {
+        "station": "Virar",
+        "time": "13:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF016",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "13:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "13:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "13:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "13:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "13:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "13:32"
+      },
+      {
+        "station": "Virar",
+        "time": "13:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS016",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "13:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "13:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "13:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "13:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "13:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "13:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "13:55"
+      },
+      {
+        "station": "Virar",
+        "time": "14:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF017",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "13:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "13:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "13:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "14:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "14:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "14:12"
+      },
+      {
+        "station": "Virar",
+        "time": "14:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS017",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "14:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "14:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "14:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "14:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "14:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "14:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "14:35"
+      },
+      {
+        "station": "Virar",
+        "time": "14:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF018",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "14:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "14:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "14:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "14:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "14:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "14:52"
+      },
+      {
+        "station": "Virar",
+        "time": "15:00"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS018",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "14:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "14:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "14:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "15:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "15:05"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "15:10"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "15:15"
+      },
+      {
+        "station": "Virar",
+        "time": "15:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF019",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "15:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "15:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "15:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "15:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "15:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "15:32"
+      },
+      {
+        "station": "Virar",
+        "time": "15:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS019",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "15:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "15:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "15:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "15:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "15:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "15:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "15:55"
+      },
+      {
+        "station": "Virar",
+        "time": "16:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF020",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "15:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "15:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "15:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "16:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "16:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "16:12"
+      },
+      {
+        "station": "Virar",
+        "time": "16:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS020",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "16:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "16:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "16:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "16:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "16:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "16:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "16:35"
+      },
+      {
+        "station": "Virar",
+        "time": "16:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF021",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "16:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "16:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "16:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "16:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "16:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "16:52"
+      },
+      {
+        "station": "Virar",
+        "time": "17:00"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS021",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "16:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "16:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "16:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:05"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:10"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "17:15"
+      },
+      {
+        "station": "Virar",
+        "time": "17:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF022",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "17:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:32"
+      },
+      {
+        "station": "Virar",
+        "time": "17:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS022",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "17:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "17:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "17:50"
+      },
+      {
+        "station": "Virar",
+        "time": "17:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF023",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "17:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "17:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "17:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "17:56"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:02"
+      },
+      {
+        "station": "Virar",
+        "time": "18:10"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS023",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "17:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "17:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:10"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "18:20"
+      },
+      {
+        "station": "Virar",
+        "time": "18:26"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF024",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "18:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:32"
+      },
+      {
+        "station": "Virar",
+        "time": "18:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS024",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "18:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "18:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "18:50"
+      },
+      {
+        "station": "Virar",
+        "time": "18:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF025",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "18:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "18:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "18:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "18:56"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:02"
+      },
+      {
+        "station": "Virar",
+        "time": "19:10"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS025",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "18:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "18:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:10"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "19:20"
+      },
+      {
+        "station": "Virar",
+        "time": "19:26"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF026",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "19:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:32"
+      },
+      {
+        "station": "Virar",
+        "time": "19:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS026",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "19:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "19:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "19:50"
+      },
+      {
+        "station": "Virar",
+        "time": "19:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF027",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "19:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "19:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "19:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "19:56"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:02"
+      },
+      {
+        "station": "Virar",
+        "time": "20:10"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS027",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "19:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "19:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:10"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "20:20"
+      },
+      {
+        "station": "Virar",
+        "time": "20:26"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF028",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "20:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:32"
+      },
+      {
+        "station": "Virar",
+        "time": "20:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS028",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "20:20"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:25"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:30"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:35"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:40"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "20:45"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "20:50"
+      },
+      {
+        "station": "Virar",
+        "time": "20:56"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF029",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "20:35"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:40"
+      },
+      {
+        "station": "Mira Road",
+        "time": "20:45"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "20:50"
+      },
+      {
+        "station": "Naigaon",
+        "time": "20:56"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:02"
+      },
+      {
+        "station": "Virar",
+        "time": "21:10"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS029",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "20:50"
+      },
+      {
+        "station": "Dahisar",
+        "time": "20:55"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:00"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "21:05"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:10"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:15"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "21:20"
+      },
+      {
+        "station": "Virar",
+        "time": "21:26"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF030",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "21:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "21:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:32"
+      },
+      {
+        "station": "Virar",
+        "time": "21:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS030",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "21:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "21:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "21:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "21:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "21:55"
+      },
+      {
+        "station": "Virar",
+        "time": "22:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF031",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "21:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "21:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "21:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "22:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "22:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "22:12"
+      },
+      {
+        "station": "Virar",
+        "time": "22:20"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS031",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "22:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "22:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "22:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "22:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "22:25"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "22:30"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "22:35"
+      },
+      {
+        "station": "Virar",
+        "time": "22:41"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF032",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "22:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "22:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "22:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "22:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "22:46"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "22:52"
+      },
+      {
+        "station": "Virar",
+        "time": "23:00"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS032",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "22:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "22:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "22:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "23:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "23:05"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "23:10"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "23:15"
+      },
+      {
+        "station": "Virar",
+        "time": "23:21"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF033",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "23:05"
+      },
+      {
+        "station": "Dahisar",
+        "time": "23:10"
+      },
+      {
+        "station": "Mira Road",
+        "time": "23:15"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "23:20"
+      },
+      {
+        "station": "Naigaon",
+        "time": "23:26"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "23:32"
+      },
+      {
+        "station": "Virar",
+        "time": "23:40"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VS033",
+    "name": "Virar Slow",
+    "type": "Slow",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "23:25"
+      },
+      {
+        "station": "Dahisar",
+        "time": "23:30"
+      },
+      {
+        "station": "Mira Road",
+        "time": "23:35"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "23:40"
+      },
+      {
+        "station": "Naigaon",
+        "time": "23:45"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "23:50"
+      },
+      {
+        "station": "Nalasopara",
+        "time": "23:55"
+      },
+      {
+        "station": "Virar",
+        "time": "00:01"
+      }
+    ]
+  },
+  {
+    "trainNumber": "VF034",
+    "name": "Virar Fast",
+    "type": "Fast",
+    "direction": "northbound",
+    "from": "Borivali",
+    "to": "Virar",
+    "stops": [
+      {
+        "station": "Borivali",
+        "time": "23:45"
+      },
+      {
+        "station": "Dahisar",
+        "time": "23:50"
+      },
+      {
+        "station": "Mira Road",
+        "time": "23:55"
+      },
+      {
+        "station": "Bhayandar",
+        "time": "00:00"
+      },
+      {
+        "station": "Naigaon",
+        "time": "00:06"
+      },
+      {
+        "station": "Vasai Road",
+        "time": "00:12"
+      },
+      {
+        "station": "Virar",
+        "time": "00:20"
+      }
+    ]
+  }
+]
