@@ -1,10 +1,11 @@
 // src/pages/LastMilePage.jsx
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useIsMobile } from '../hooks/useIsMobile';
 import {
   getLastMileBusStop, getLastMileSuggestion, getAllLastMileOptions,
   haversine, distanceText, walkTime, getBestExit, getBearing, bearingToCompass,
 } from '../utils/helpers';
+import { getRouteAndFares } from '../services/fareService';
 import walkImg from '../assets/icons/walk.png';
 import autoImg from '../assets/icons/auto.png';
 import busImg from '../assets/icons/bus.png';
@@ -27,22 +28,13 @@ const CARD = {
   borderRadius:        16,
 };
 
-// ── Fare estimate
-function estimateFare(mode, distMeters) {
-  // Cap at 50 km — anything beyond is a geocoding error, not a real distance
-  const km = Math.min(distMeters / 1000, 50);
-  if (!distMeters || distMeters < 50) {
-    const defaults = { walk:'Free', auto:'₹30–₹60', bus:'₹5–₹15', cab:'₹80–₹150', bike:'₹25–₹50' };
-    return defaults[mode] || '—';
-  }
-  switch (mode) {
-    case 'walk':  return 'Free';
-    case 'auto': { const b = Math.max(30, Math.round(km * 15)); return `₹${b}–₹${Math.round(b * 1.5)}`; }
-    case 'bus':   return km < 5 ? '₹5–₹10' : '₹10–₹20';
-    case 'cab':  { const b = Math.max(80, Math.round(km * 18 + 40)); return `₹${b}–₹${Math.round(b * 1.35)}`; }
-    case 'bike': { const b = Math.max(25, Math.round(km * 10 + 15)); return `₹${b}–₹${Math.round(b * 1.4)}`; }
-    default: return '—';
-  }
+// ── Fare display — reads from the fare map fetched via ORS API
+// fareLookup is: { auto: { display:'₹40–₹48', isSurge:false }, ... }
+function getFareDisplay(mode, fareLookup, fallbackDistMeters) {
+  if (fareLookup && fareLookup[mode]) return fareLookup[mode].display;
+  // Fallback shown while API is loading or if coords unavailable
+  const defaults = { walk:'Free', auto:'₹30–₹60', bus:'₹5–₹15', cab:'₹80–₹150', bike:'₹25–₹50' };
+  return defaults[mode] || '—';
 }
 
 /* ── Icons ─────────────────────────────────────────────── */
@@ -107,9 +99,11 @@ function RideBtn({ p }) {
 }
 
 /* ── Transport card ─────────────────────────────────────── */
-function TransportCard({ mode, detail, fare, recommended, isSelected, onSelect, distMeters }) {
+function TransportCard({ mode, detail, fareLookup, recommended, isSelected, onSelect, distMeters }) {
   const meta       = TRANSPORT_META[mode] || TRANSPORT_META.auto;
-  const actualFare = fare || estimateFare(mode, distMeters);
+  const fareResult = fareLookup?.[mode];
+  const fareStr    = fareResult?.display || getFareDisplay(mode, fareLookup, distMeters);
+  const isSurge    = fareResult?.isSurge || false;
   const rides      = mode==='cab'?['uber','ola']:mode==='auto'?['ola','rapido']:mode==='bike'?['rapido']:[];
 
   return (
@@ -187,7 +181,10 @@ function TransportCard({ mode, detail, fare, recommended, isSelected, onSelect, 
             fontSize:'.76rem', fontWeight:800,
             color: isSelected ? meta.color : '#3a3a34',
             marginBottom: rides.length ? 5 : 0,
-          }}>{actualFare}</div>
+          }}>{fareStr}</div>
+          {isSurge && (
+            <div style={{ fontSize:'.58rem', color:'#e67e22', fontWeight:700, marginBottom:3 }}>⚡ Surge</div>
+          )}
           {rides.length > 0 && (
             <div style={{ display:'flex', gap:4, justifyContent:'flex-end' }}>
               {rides.map(r => <RideBtn key={r} p={r} />)}
@@ -243,21 +240,25 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
   const [bestExit,   setBestExit]   = useState(null);
   const [compass,    setCompass]    = useState('');
   const [navSteps,   setNavSteps]   = useState([]);
+  const [fareData,   setFareData]   = useState(null);   // { fares, distanceKm, durationMin, isSurge, isFallback }
+  const [fareLoading, setFareLoading] = useState(false);
+  const fetchedRef = useRef(false);
 
   useEffect(() => {
     if (!destStation) return;
+    fetchedRef.current = false;
     const bs = getLastMileBusStop(destStation);
     setBusStop(bs);
 
     if (destPlaceCoords?.found) {
       let dist = haversine(destStation.lat, destStation.lng, destPlaceCoords.lat, destPlaceCoords.lng);
       if (dist < 50) dist = 350;
-      if (dist > 30000) dist = 800; // geocoding returned wrong city — use neutral default
+      if (dist > 30000) dist = 800;
       setDestDist(dist);
 
       const sug      = getLastMileSuggestion(destStation.lat, destStation.lng, destPlaceCoords.lat, destPlaceCoords.lng, bs);
       const opts     = getAllLastMileOptions(destStation.lat, destStation.lng, destPlaceCoords.lat, destPlaceCoords.lng, bs);
-      const withBike = [...opts, { mode:'bike', label:'Bike', detail:'Fast 2-wheeler ride', fare:estimateFare('bike',dist), recommended:false }];
+      const withBike = [...opts, { mode:'bike', label:'Bike', detail:'Fast 2-wheeler ride', recommended:false }];
       setSuggestion(sug);
       setAllOptions(withBike);
       setSelMode(sug.mode);
@@ -277,13 +278,34 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
       if (destPlaceName) steps.push(`Arrive at ${destPlaceName}`);
       setNavSteps(steps);
 
-      let msg = `Arrived at ${destStation.name} station. `;
-      if (exit) msg += `Take the ${exit.side} exit. `;
-      if (sug.mode==='walk')       msg += `Your destination is just a short walk away. `;
-      else if (sug.mode==='auto')  msg += `Auto-rickshaw recommended. Estimated fare ${estimateFare('auto',dist)}. `;
-      else if (sug.mode==='bus')   msg += `Take bus number ${bs?.buses?.[0]} from ${bs?.name}. `;
-      else                         msg += `Book a cab. Estimated fare ${estimateFare('cab',dist)}. `;
-      speak(msg);
+      // ── Fetch real road fares via ORS API ──────────────────
+      if (!fetchedRef.current) {
+        fetchedRef.current = true;
+        setFareLoading(true);
+        getRouteAndFares(
+          destStation.lat, destStation.lng,
+          destPlaceCoords.lat, destPlaceCoords.lng
+        ).then(result => {
+          setFareData(result);
+          setFareLoading(false);
+          // Update option list with real fares (so recommendation banner is accurate)
+          setAllOptions(prev => prev.map(o => ({
+            ...o,
+            fare: result.fares[o.mode]?.display || o.fare,
+          })));
+          const realFare = result.fares[sug.mode]?.display || '';
+          let msg = `Arrived at ${destStation.name} station. `;
+          if (exit) msg += `Take the ${exit.side} exit. `;
+          if (sug.mode==='walk')       msg += `Your destination is just a short walk away. `;
+          else if (sug.mode==='auto')  msg += `Auto-rickshaw recommended. Estimated fare ${realFare}. `;
+          else if (sug.mode==='bus')   msg += `Take bus number ${bs?.buses?.[0]} from ${bs?.name}. `;
+          else                         msg += `Book a cab. Estimated fare ${realFare}. `;
+          speak(msg);
+        }).catch(() => {
+          setFareLoading(false);
+          speak(`Arrived at ${destStation.name}. Choose your transport.`);
+        });
+      }
     } else {
       speak(`Arrived at ${destStation.name}. Choose your transport.`);
     }
@@ -375,9 +397,12 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
             <p style={{ color:'#9a9a94', fontSize:'.76rem' }}>
               Arrived at{' '}
               <strong style={{ color:G_DARK, fontWeight:700 }}>{destStation.name}</strong>
-              {destDist && destDist > 50 && (
-                <span style={{ color:'#bbb' }}> · {distanceText(destDist)} to {destPlaceName || 'destination'}</span>
-              )}
+              {fareData
+                ? <span style={{ color:'#bbb' }}> · {fareData.distanceKm} km road · {fareData.durationMin} min{fareData.isFallback ? ' (est.)' : ''} to {destPlaceName || 'destination'}</span>
+                : destDist && destDist > 50
+                  ? <span style={{ color:'#bbb' }}> · {distanceText(destDist)} to {destPlaceName || 'destination'}</span>
+                  : null
+              }
             </p>
           </div>
 
@@ -415,7 +440,13 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
                 <span style={{ fontSize:'.72rem' }}>
                   <span style={{ fontWeight:700, color:G_DARK }}>VISTA recommends: </span>
                   <span style={{ color:'#6a6a64' }}>
-                    {TRANSPORT_META[suggestion.mode]?.label} · {estimateFare(suggestion.mode, destDist||0)}
+                    {TRANSPORT_META[suggestion.mode]?.label}
+                    {fareLoading
+                      ? ' · fetching fare…'
+                      : ` · ${fareData?.fares?.[suggestion.mode]?.display || getFareDisplay(suggestion.mode, fareData?.fares, destDist||0)}`
+                    }
+                    {fareData?.isFallback && <span style={{ color:'#bbb', fontSize:'.62rem' }}> (est.)</span>}
+                    {fareData?.isSurge && <span style={{ color:'#e67e22' }}> ⚡ Surge</span>}
                   </span>
                 </span>
               </div>
@@ -504,7 +535,7 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
                     key={opt.mode}
                     mode={opt.mode}
                     detail={opt.detail}
-                    fare={opt.fare}
+                    fareLookup={fareData?.fares}
                     recommended={opt.recommended}
                     isSelected={selMode===opt.mode}
                     onSelect={handleSelect}
@@ -556,8 +587,8 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
                   `Arrived at ${destStation.name} station.`,
                   bestExit ? `Take the ${bestExit.side} exit.` : '',
                   selMode==='walk' ? 'Your destination is a short walk from the exit.'
-                  : selMode==='auto' ? `Take an auto-rickshaw. Estimated fare ${estimateFare('auto',destDist||0)}.`
-                  : selMode==='cab' ? `Book a cab. Estimated fare ${estimateFare('cab',destDist||0)}.` : '',
+                  : selMode==='auto' ? `Take an auto-rickshaw. Estimated fare ${fareData?.fares?.auto?.display || 'unknown'}.`
+                  : selMode==='cab' ? `Book a cab. Estimated fare ${fareData?.fares?.cab?.display || 'unknown'}.` : '',
                 ].filter(Boolean).join(' '))}
                 style={{
                   flex:1, padding:'11px 0', borderRadius:12, cursor:'pointer',
@@ -599,7 +630,7 @@ export default function LastMilePage({ appState, setAppState, onNavigate, speak 
                 key={opt.mode}
                 mode={opt.mode}
                 detail={opt.detail}
-                fare={opt.fare}
+                fareLookup={fareData?.fares}
                 recommended={opt.recommended}
                 isSelected={selMode===opt.mode}
                 onSelect={handleSelect}

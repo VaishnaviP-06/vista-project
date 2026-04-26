@@ -285,31 +285,32 @@ export function getLastMileSuggestion(stLat, stLng, destLat, destLng, nearbyBusS
   // Only recommend walking if ≤ 3 min (~240m) — otherwise auto/cab
   if (dist <= 240) return {
     mode: 'walk', icon: '🚶', label: 'Walk',
-    detail: `Only ${distanceText(dist)} — about ${wt} min walk`, fare: 'Free',
+    detail: `Only ${distanceText(dist)} — about ${wt} min walk`,
   };
   if (dist <= 2000) return {
     mode: 'auto', icon: '🛺', label: 'Auto-Rickshaw',
     detail: `${distanceText(dist)} — ~${Math.round(dist/200)} min ride`,
-    fare: `₹${Math.max(25,Math.round(dist/40))}–₹${Math.round(dist/30)}`,
   };
   if (dist <= 5000 && nearbyBusStop) return {
     mode: 'bus', icon: '🚌', label: `Bus from ${nearbyBusStop.name}`,
     detail: `${distanceText(dist)} — bus ${nearbyBusStop.buses.slice(0,2).join('/')}`,
-    fare: '₹5–₹15',
   };
   return {
     mode: 'cab', icon: '🚕', label: 'Cab / Taxi',
-    detail: `${distanceText(dist)} — book Ola or Uber`, fare: `₹${Math.round(dist/50)}+`,
+    detail: `${distanceText(dist)} — book Ola or Uber`,
   };
 }
 
 export function getAllLastMileOptions(stLat, stLng, destLat, destLng, nearbyBusStop) {
   const dist = haversine(stLat, stLng, destLat, destLng);
   const wt = walkTime(dist);
+  // Note: fare strings are intentionally omitted here.
+  // Real fares are fetched asynchronously via fareService.getRouteAndFares()
+  // and injected into each option by LastMilePage after the ORS API responds.
   return [
-    { mode:'walk', icon:'🚶', label:'Walk',         detail:`${distanceText(dist)} · ~${wt} min`,                    fare:'Free',        recommended: dist <= 240 },
-    { mode:'auto', icon:'🛺', label:'Auto-Rickshaw', detail:`~${Math.round(dist/200)} min ride`,                     fare:`₹${Math.max(25,Math.round(dist/40))}–₹${Math.round(dist/30)}`, recommended: dist > 240 && dist <= 2000 },
-    { mode:'bus',  icon:'🚌', label:'Bus',           detail: nearbyBusStop ? `${nearbyBusStop.buses.slice(0,2).join(', ')} from nearby` : 'Check routes', fare:'₹5–₹15', recommended: dist > 2000 && dist <= 5000 },
-    { mode:'cab',  icon:'🚕', label:'Cab / Taxi',    detail:`Ola / Uber · ~${Math.round(dist/400)} min`,             fare:`₹${Math.round(dist/50)}+`,   recommended: dist > 5000 },
+    { mode:'walk', icon:'🚶', label:'Walk',         detail:`${distanceText(dist)} · ~${wt} min`,                    recommended: dist <= 240 },
+    { mode:'auto', icon:'🛺', label:'Auto-Rickshaw', detail:`~${Math.round(dist/200)} min ride`,                     recommended: dist > 240 && dist <= 2000 },
+    { mode:'bus',  icon:'🚌', label:'Bus',           detail: nearbyBusStop ? `${nearbyBusStop.buses.slice(0,2).join(', ')} from nearby` : 'Check routes', recommended: dist > 2000 && dist <= 5000 },
+    { mode:'cab',  icon:'🚕', label:'Cab / Taxi',    detail:`Ola / Uber · ~${Math.round(dist/400)} min`,             recommended: dist > 5000 },
   ];
 }
