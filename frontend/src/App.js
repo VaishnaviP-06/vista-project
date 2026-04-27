@@ -10,6 +10,10 @@ import TrainsPage    from './pages/TrainsPage';
 import LastMilePage  from './pages/LastMilePage';
 import { useVoice }  from './hooks/useVoice';
 
+useEffect(() => {
+  console.log("API URL:", process.env.REACT_APP_API_URL);
+}, []);
+
 const GRID_PAGES = ['home', 'location', 'dest', 'trains'];
 
 const INITIAL_STATE = {
