@@ -102,5 +102,5 @@ app.get('/bus-stops/:id', async (req, res) => {
 
 // ── Start server ─────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`✓ VISTA API listening on http://localhost:${PORT}`);
+  console.log(`✓ VISTA API running on port ${PORT}`);
 });
